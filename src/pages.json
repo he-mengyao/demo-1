@@ -1,0 +1,27 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/main",
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "小程序",
+    "navigationBarBackgroundColor": "#eb4450",
+    "backgroundColor": "#F8F8F8",
+    "enablePullDownRefresh": true
+  },
+  "condition": {
+    "current": 1,
+    "list": [
+      {
+        "name": "pages/index/main",
+        "path": "pages/index/main",
+        "query": ""
+      }
+    ]
+  }
+}

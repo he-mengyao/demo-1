@@ -1,0 +1,28 @@
+{
+  "brand": "mPaaS-uniapp",
+  "miniprogramRoot": "dist/shupian",
+  "scripts": {
+    "beforeCompile": "npm run dev:mp-shupian",
+    "beforePreview": "npm run build:mp-shupian",
+    "beforeUpload": "npm run build:mp-shupian"
+  },
+  "exclude": [
+    "src/**",
+    "node_modules",
+    "node_modules/**",
+    "app.json",
+    "babel.config.js",
+    "package-lock.json",
+    "package.json",
+    "postcss.config.js"
+  ],
+  "precompileWatch": {
+    "selfWatch": true,
+    "restart": true,
+    "exclude": [
+      "dist/shupian/**",
+      "*.md"
+    ],
+    "ignoreBuiltInExts": false
+  }
+}
