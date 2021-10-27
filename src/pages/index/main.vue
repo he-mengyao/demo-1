@@ -2,6 +2,7 @@
    <view>
      <button @click="getHandleSign">GET请求</button>
      <button @click="postHandleSign">POST请求</button>
+     1234
    </view>
 </template>
 
